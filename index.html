@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MÁS SOBRE MÍ</title>
+    <style>
+        body {
+            background-color: rgb(221, 159, 240); /* Cambia la imagen de fondo */
+            background-size: cover; /* Cubre toda la página */
+            background-attachment: fixed; /* Fijo al hacer scroll */
+            background-position: center; /* Centrado */
+            margin: 0; /* Sin margen */
+            padding: 20px; /* Padding alrededor */
+            font-family: Arial, sans-serif; 
+            color: #333; /* Color del texto */
+        }
+
+        .hero {
+            max-width: 800px; /* Ancho máximo */
+            margin: 0 auto; /* Centrado */
+            padding: 30px; /* Padding interno */
+            border-radius: 10px; /* Bordes redondeados */
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Sombra más pronunciada */
+            background-color:white; /* Fondo blanco semi-transparente */
+            backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo */
+        }
+
+        h1 {
+            color: rgb(114, 18, 106); /* Color del título */
+            text-align: center; /* Centrado */
+            margin-bottom: 20px; /* Espacio debajo */
+            font-family: 'Merriweather', serif; /* Fuente serif */
+            font-size: 2.5em; /* Tamaño del texto */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Sombra del texto */
+        }
+
+        p {
+            text-align: justify; /* Justificar texto */
+            line-height: 1.6; /* Altura de línea */
+            margin-bottom: 15px; /* Espacio debajo del párrafo */
+        }
+
+        .brand img {
+            display: block; /* Centrar imagen */
+            margin: 0 auto 20px; /* Espacio debajo */
+            max-width: 100%; /* Responsiva */
+            border-radius: 8px; /* Bordes redondeados */
+        }
+
+        /* Contenedor flexible para imagen y texto */
+        .flex-container {
+            display: flex; /* Flexbox */
+            flex-wrap: wrap; /* Permitir envoltura */
+            margin-bottom: 20px; /* Espacio debajo */
+        }
+
+        .flex-container img {
+            max-width: 45%; /* Ancho máximo de la imagen */
+            margin-right: 15px; /* Espacio a la derecha */
+            border-radius: 8px; /* Bordes redondeados */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+        }
+
+        .flex-container div {
+            max-width: 50%; /* Ancho máximo del texto */
+        }
+
+        /* Estilo del botón */
+        .btn-back {
+            display: inline-block; /* Mostrar en línea */
+            padding: 10px 20px; /* Espaciado interno */
+            margin: 20px 0; /* Espaciado vertical */
+            text-align: center; /* Centrado */
+            color: #ffffff; /* Color del texto */
+            background-color: rgb(114, 18, 106); /* Color de fondo */
+            border: none; /* Sin borde */
+            border-radius: 5px; /* Bordes redondeados */
+            font-size: 1.2em; /* Tamaño del texto */
+            text-decoration: none; /* Sin subrayado */
+            transition: background 0.3s; /* Transición suave */
+            float: right; /* Alinear a la derecha */
+        }
+
+        .btn-back:hover {
+            background-color: rgb(94, 14, 83); /* Color de fondo al pasar el mouse */
+        }
+
+        @media (max-width: 768px) {
+            .flex-container {
+                flex-direction: column; /* Cambia a columna en móviles */
+            }
+
+            .flex-container img {
+                margin-right: 0; /* Sin margen a la derecha */
+                max-width: 100%; /* Ancho completo */
+                margin-bottom: 15px; /* Espacio debajo de la imagen */
+            }
+
+            .flex-container div {
+                max-width: 100%; /* Ancho completo */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="hero" id="home">
+        <header>
+            <div class="brand">
+                <h1>MÁS SOBRE MÍ</h1>
+            </div>
+
+            <p>Desde que inicie mis estudios, he desarrollado un profundo interés por la inteligencia artificial, la programación y como esto se integra y complementa con la ingeniería industrial. Creo firmemente que la combinación de la inteligencia artificial y la programación tiene el potencial de revolucionar la manera en que optimizamos procesos, mejoramos la eficiencia y tomamos decisiones basadas en datos en el sector industrial.</p>
+
+            <div class="flex-container">
+                <img src="Mariposa.jpg" alt="Una imagen representativa" width="400" height="300"> <!-- Cambia el src por la imagen adecuada -->
+                <div>
+                    <p>Mi interés por el mundo de la tecnología y la ingeniería surge en parte de mi deseo de crear soluciones que realmente aporten a las personas. Este sentido de propósito es lo que me motiva a seguir aprendiendo y a explorar formas de innovar en el ámbito industrial.</p>
+                    <p>Cuando no estoy ocupada con proyectos o estudios, disfruto dedicar mi tiempo a actividades que me permiten desconectarme y recargar energías. La lectura es una de mis pasiones; me encanta leer sobre temas diversos, desde ciencia hasta desarrollo personal.</p>
+                </div>
+            </div>
+
+            <p>Me considero una persona guiada por principios sólidos como la empatía, la gratitud y la perseverancia. Creo firmemente en la importancia de tratar a los demás con respeto y de trabajar siempre con integridad. Estos valores me orientan en mis decisiones y me permiten enfrentar cada situación con un sentido de propósito y humanidad.</p>
+        </header>
+    </div>
+</body>
+
+</html>
